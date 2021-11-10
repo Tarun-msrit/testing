@@ -76,4 +76,9 @@ public class MainController {
 		return ResponseEntity.ok().body(allBooks);
 	}
 	
+	@GetMapping("/hello")
+	public String getHello() {
+		return "Hello Tarun,how are you";
+	}
+	
 }
