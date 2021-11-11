@@ -80,27 +80,4 @@ public class MainController {
 	public String getHello() {
 		return "Hello Tarun,how are you";
 	}
-	
-	@GetMapping("/fruits")
-	public String getFruits() {
-		return "Mango,Apple";
-	}
-	
-	@GetMapping("/veggies")
-	public String getVeggies() {
-		return "Potato";
-	}
-	@GetMapping("/vegans")
-	public String getVegans() {
-		return "Bread";
-	}
-	@GetMapping("/nonveggies")
-	public String getMeat() {
-		return "Chicken";
-	}
-	
-	@GetMapping("/milk")
-	public String getMilk() {
-		return "Milk";
-	}
 }
