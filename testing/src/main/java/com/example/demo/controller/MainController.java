@@ -85,5 +85,9 @@ public class MainController {
 	public String getToys() {
 		return "Toy";
 	}
+	@GetMapping("/fruits")
+	public String getFruits() {
+		return "Mango,Apple";
+	}
 	
 }
