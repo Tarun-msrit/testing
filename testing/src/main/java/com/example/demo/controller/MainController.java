@@ -95,4 +95,9 @@ public class MainController {
 	public String getMeat() {
 		return "Chicken";
 	}
+	
+	@GetMapping("/milk")
+	public String getMilk() {
+		return "Milk";
+	}
 }
