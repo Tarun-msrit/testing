@@ -90,7 +90,10 @@ public class MainController {
 	public String getVeggies() {
 		return "Potato";
 	}
-	
+	@GetMapping("/vegans")
+	public String getVegans() {
+		return "Bread";
+	}
 	@GetMapping("/nonveggies")
 	public String getMeat() {
 		return "Chicken";
