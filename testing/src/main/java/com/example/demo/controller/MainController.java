@@ -93,9 +93,9 @@ public class MainController {
 	public String getFruits() {
 		return "Mango,Apple";
 	}
+
 	@GetMapping("/books")
 	public String getBooks(){
 		return "Shakespeare";
 	}
-	
 }
