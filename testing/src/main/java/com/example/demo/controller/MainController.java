@@ -93,9 +93,6 @@ public class MainController {
 	public String getFruits() {
 		return "Mango,Apple";
 	}
-	@GetMapping("/nonveggies")
-	public String getMeat() {
-		return "Chicken";
-	}
+	
 	
 }
